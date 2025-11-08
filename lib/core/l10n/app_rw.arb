@@ -1,0 +1,22 @@
+{
+  "@@locale": "rw",
+  "appTitle": "NeoVote",
+  "login": "Injira",
+  "logout": "Sohoka",
+  "vote": "Tora Amajwi",
+  "dashboard": "Ikibaho",
+  "receipts": "Inyemezabwishyu",
+  "profile": "Umwirondoro",
+  "welcome": "Murakaza neza NeoVote",
+  "selectCandidate": "Hitamo umukandida wawe",
+  "castVote": "Tora Ijwi",
+  "voteCastSuccessfully": "Ijwi ryatorwe neza",
+  "error": "Ikosa",
+  "loading": "Birimo gutunganya...",
+  "noElections": "Nta matora arimo",
+  "electionEnded": "Amatora yarangiye",
+  "biometricAuth": "Ubumenyi bw'Umubiri",
+  "useBiometric": "Koresha ubumenyi bw'umubiri kwinjira",
+  "offlineMode": "Ubwoko bwa Offline",
+  "syncPending": "Emeza amajwi asubira igihe uri kuri interineti"
+}

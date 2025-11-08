@@ -1,0 +1,21 @@
+{
+  "@@locale": "sw",
+  "appTitle": "NeoVote",
+  "login": "Ingia",
+  "logout": "Ondoka",
+  "vote": "Piga Kura",
+  "dashboard": "Dashibodi",
+  "receipts": "Risiti",
+  "profile": "Wasifu",
+  "selectCandidate": "Chagua mgombezi wako",
+  "castVote": "Piga Kura",
+  "voteCastSuccessfully": "Kura imepigwa kwa mafanikio",
+  "error": "Kosa",
+  "loading": "Inapakia...",
+  "noElections": "Hakuna uchaguzi unaoendelea",
+  "electionEnded": "Uchaguzi umemalizika",
+  "biometricAuth": "Uthibitishaji wa Kibayometriki",
+  "useBiometric": "Tumia kuingia kwa kibayometriki",
+  "offlineMode": "Hali ya Nje ya Mtandao",
+  "syncPending": "Sawazisha kura zinazosubiri wakati wa mtandao"
+}
