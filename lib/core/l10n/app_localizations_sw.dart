@@ -9,85 +9,85 @@ class AppLocalizationsSw extends AppLocalizations {
   AppLocalizationsSw([String locale = 'sw']) : super(locale);
 
   @override
-  String get welcomeToNeoVote => 'Welcome to NeoVote';
+  String get welcomeToNeoVote => 'Karibu NeoVote';
 
   @override
-  String get authSlogan => 'Secure, transparent, and easy voting.';
+  String get authSlogan => 'Salama, wazi, na kupiga kura kwa urahisi.';
 
   @override
-  String get sendCode => 'Send Code';
+  String get sendCode => 'Tuma Msimbo';
 
   @override
-  String get phoneNumber => 'Phone Number';
+  String get phoneNumber => 'Nambari ya Simu';
 
   @override
-  String get loginWithBiometrics => 'Login with Biometrics';
+  String get loginWithBiometrics => 'Ingia kwa Kibayometriki';
 
   @override
-  String get verifyYourNumber => 'Verify Your Number';
+  String get verifyYourNumber => 'Thibitisha Nambari Yako';
 
   @override
-  String get enterOtp => 'Enter the 6-digit code sent to';
+  String get enterOtp => 'Ingiza msimbo wa tarakimu 6 uliotumwa kwa';
 
   @override
-  String get verificationCode => 'Verification Code';
+  String get verificationCode => 'Msimbo wa Uthibitisho';
 
   @override
-  String get verifyAndProceed => 'Verify & Proceed';
+  String get verifyAndProceed => 'Thibitisha & Endelea';
 
   @override
-  String get resendCode => 'Resend Code';
+  String get resendCode => 'Tuma Msimbo Tena';
 
   @override
-  String get activeElections => 'Active Elections';
+  String get activeElections => 'Uchaguzi Unaoendelea';
 
   @override
   String get profile => 'Wasifu';
 
   @override
-  String get noActiveElections => 'No Active Elections';
+  String get noActiveElections => 'Hakuna Uchaguzi Unaoendelea';
 
   @override
   String get noActiveElectionsMessage =>
-      'There are currently no elections available for you to vote in. Pull down to refresh or check back later.';
+      'Hakuna uchaguzi unaoendelea kwa sasa unaoweza kupiga kura. Buruta chini ili kupakia upya au angalia baadaye.';
 
   @override
-  String get castYourVote => 'Cast Your Vote';
+  String get castYourVote => 'Piga Kura Yako';
 
   @override
-  String get reviewAndSubmit => 'Review & Submit Vote';
+  String get reviewAndSubmit => 'Kagua & Wasilisha Kura';
 
   @override
-  String get confirmYourSelection => 'Confirm Your Selection';
+  String get confirmYourSelection => 'Thibitisha Uteuzi Wako';
 
   @override
-  String get youHaveSelected => 'You have selected:';
+  String get youHaveSelected => 'Umechagua:';
 
   @override
-  String get confirmAndCast => 'Confirm & Cast My Vote';
+  String get confirmAndCast => 'Thibitisha & Piga Kura Yangu';
 
   @override
-  String get voteCastSuccessTitle => 'Vote Cast Successfully!';
+  String get voteCastSuccessTitle => 'Kura Imetumwa Kwa Mafanikio!';
 
   @override
   String get voteCastSuccessMessage =>
-      'Your vote has been securely recorded on the blockchain.';
+      'Kura yako imehifadhiwa salama kwenye blockchain.';
 
   @override
-  String get profileAndSettings => 'Profile & Settings';
+  String get profileAndSettings => 'Wasifu & Mipangilio';
 
   @override
-  String get name => 'Name';
+  String get name => 'Jina';
 
   @override
-  String get appearance => 'Appearance';
+  String get appearance => 'Muonekano';
 
   @override
-  String get language => 'Language';
+  String get language => 'Lugha';
 
   @override
-  String get viewVoteReceipts => 'View Vote Receipts';
+  String get viewVoteReceipts => 'Tazama Risiti za Kura';
 
   @override
-  String get logOut => 'Log Out';
+  String get logOut => 'Ondoka';
 }
