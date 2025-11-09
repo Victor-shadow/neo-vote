@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921053863075",
+    "project_id": "neovote-c8d99",
+    "storage_bucket": "neovote-c8d99.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921053863075:android:08a8b7457dbbf1a8c83316",
+        "android_client_info": {
+          "package_name": "com.example.neo_vote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5QUB8MXQ2ORa5JM3F5l03iVm4wG8Bay8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

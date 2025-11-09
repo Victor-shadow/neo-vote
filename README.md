@@ -3,6 +3,7 @@
 A new Flutter project.
 
 ## Getting Started
+project-921053863075
 
 # NeoVote Mobile App: Flutter Frontend Architecture
 
@@ -181,3 +182,20 @@ The entry point of the application. Its main job is to initialize Riverpod (`Pro
   │       └── images/
   │
   └── main.dart
+
+victor@victor-HP-EliteBook-830-G5:~/StudioProjects/neo_vote$ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+Alias name: androiddebugkey
+Creation date: Oct 9, 2025
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: C=US, O=Android, CN=Android Debug
+Issuer: C=US, O=Android, CN=Android Debug
+Serial number: 1
+Valid from: Thu Oct 09 04:33:33 CDT 2025 until: Sat Oct 02 04:33:33 CDT 2055
+Certificate fingerprints:
+         SHA1: 41:12:2E:8C:A8:DF:A6:83:B8:B9:5F:67:05:2E:26:85:A9:FD:B1:B8
+         SHA256: F5:C3:D3:64:F6:32:3F:59:05:09:E8:2B:C2:F2:81:0C:9A:77:9C:2B:5D:D2:E0:6A:18:87:3F:E9:D7:E3:FB:3B
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 1
