@@ -21,7 +21,8 @@ class BiometricPromptButton extends StatelessWidget {
 
     if (!canAuthenticate) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Biometric authentication not available.')),
+        const SnackBar(
+            content: Text('Biometric authentication not available.')),
       );
       return;
     }
@@ -29,11 +30,6 @@ class BiometricPromptButton extends StatelessWidget {
     try {
       final bool didAuthenticate = await auth.authenticate(
         localizedReason: 'Please authenticate to log into NeoVote',
-        // The 'const' keyword is also removed as the real constructor isn't const.
-        // options: AuthenticationOptions(
-        //   stickyAuth: true, // Keep prompt open on failure
-        //   biometricOnly: true, // Do not allow device PIN
-        // ),
       );
 
       // Another check after the authentication async gap.
@@ -41,11 +37,22 @@ class BiometricPromptButton extends StatelessWidget {
         onAuthenticated();
       }
     } on PlatformException catch (e) {
-      // Final check before showing a potential error.
-      if (context.mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Authentication error: ${e.message}')),
-        );
+      // Handle specific error for no credentials set
+      if (e.code == 'noCredentialsSet') {
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+                content: Text(
+                    'No biometric credentials set. Please set up biometrics in device settings.')),
+          );
+        }
+      } else {
+        // Final check before showing a potential error.
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text('Authentication error: ${e.message}')),
+          );
+        }
       }
     }
   }
@@ -65,4 +72,3 @@ class BiometricPromptButton extends StatelessWidget {
     );
   }
 }
-
